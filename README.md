@@ -24,6 +24,9 @@ https://dzone.com/articles/using-ocr-for-receipt-recognition
 
 
 - 开源项目：github上也有一些开源的OCR项目-google Tesseract等，咱们需要投入研发去修正，部署，测试，改进，最终做demo，出咱们自己的版本。
+1. https://github.com/JinpengLI/deep_ocr
+2. https://github.com/chineseocr/chinese-ocr
+
 - 技术对比：目前技术有tesseract，或者deep learning，我们需要基于准确性，可维护性进行选择。
 - KPI：图片文字识别准确度能达到80-90%，应该不是100%，所以咱们后续还需提供校对，手工编辑的环节
 
