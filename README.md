@@ -31,8 +31,9 @@ https://dzone.com/articles/using-ocr-for-receipt-recognition
 
 - DEMO
 1. 布局一致的文字识别
-身份证
-(https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/id_card_img.jpg)
+
+
+![身份证](https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/id_card_img.jpg)
 识别结果：
 
 ```
@@ -75,9 +76,11 @@ day
 - 结果信息（标题、日期）等位置是否固定
 
 2. 带背景的文字识别DEMO
-车牌
-(https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/plateNumber.png)
 
-明信片
-(https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/chineseWithBackground.png)
+
+![车牌](https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/plateNumber.png)
+
+
+
+![明信片](https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/chineseWithBackground.png)
 
