@@ -1,11 +1,10 @@
 # 可行性方案设计
-方案包括
+产品将包括：
 ### 硬件
 - 摄像头，灯，光滑平整的扫描区域等
 
     ![扫描仪](https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/scanner.jpg)
     
-    https://detail.1688.com/offer/35548851534.html?spm=a261b.2187593.1998088710.12.7U4a24
 
 ### 软件
 - 确保机器可以识别各种背景中的中文（代码+demo如下）
