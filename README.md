@@ -38,6 +38,7 @@ github上也有一些开源的OCR项目-google Tesseract等，咱们需要投入
 
 
 ![身份证](https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/id_card_img.jpg)
+
 识别结果：
 
 ```
