@@ -1,7 +1,9 @@
-# ocrScanDocs
-recognize Chinese characters for efficient doc input
+# 可行性方案设计
+- 确保机器可以识别各种背景中的中文（代码+demo如下）
+- 依照项目要求，依据将影响识别度的文档情况（包括但不限于：布局、背景颜色、字体），设计详细识别方案
 
-调研进度：
+
+# 调研进度：
 - 成熟软件，市面上有一些文字识别软件例如ABBYY-俄罗斯
 Abbyy OCR SDK/API.
 OnlineOCR.
@@ -12,7 +14,7 @@ Tesseract Online Demo (flunked even the 300 dpi OCR test)
 NOTE: https://www.zhihu.com/question/19593313
 真正能把中文OCR做得比较专业的，一共也没几家，国内2家，国外2家。国内是文通和汉王，国外是ABBYY和IRIS（台湾原来有2家丹青和蒙恬，这两年没什么动静了）。像大家提到的紫光OCR、CAJViewer、MS Office、清华OCR、包括慧视小灵鼠，这些都是文通的产品或者使用文通的识别引擎，尚书则是汉王的产品，和中晶扫描仪捆绑销售的。这两家的中文识别率都是非常不错的。而国外的2家，主要特点是西方语言的识别率很好，而且支持多种西欧语言，产品化程度也很高，不过中文方面速度和识别率还是有差距的，当然这两年人家也是在不断进步。Google的开源项目，至少在中文方面，和这些家相比，各项性能指标水平差距还蛮大的呢。
 
-- 类似应用，识别收据
+# 类似应用，识别收据
 1. Free Chinese Character Recognition with Google Translate 6 December, 2012 @ 23:00pm UTC
 http://chinesehacks.com/resources/free-chinese-character-recognition-google-translate/
 
@@ -29,7 +31,7 @@ https://dzone.com/articles/using-ocr-for-receipt-recognition
 3. https://github.com/wanghaisheng/awesome-ocr
 4. https://github.com/JarveeLee/SynthText_Chinese_version
 
-- DEMO
+#  DEMO
 1. 布局一致的文字识别
 
 
