@@ -26,6 +26,45 @@ https://dzone.com/articles/using-ocr-for-receipt-recognition
 - 开源项目：github上也有一些开源的OCR项目-google Tesseract等，咱们需要投入研发去修正，部署，测试，改进，最终做demo，出咱们自己的版本。
 1. https://github.com/JinpengLI/deep_ocr
 2. https://github.com/chineseocr/chinese-ocr
+3. https://github.com/wanghaisheng/awesome-ocr
+4. https://github.com/JarveeLee/SynthText_Chinese_version
+
+- DEMO
+1. 布局一致的文字识别
+身份证
+(https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/id_card_img.jpg)
+识别结果：
+
+```
+...
+ocr res:
+============================================================
+name
+韦小宝
+============================================================
+address
+北京市东城区累山前街4号
+紫禁城敬事房
+============================================================
+month
+12
+============================================================
+minzu
+汉
+============================================================
+year
+1654
+============================================================
+sex
+男
+============================================================
+id
+1X21441114X221243X
+============================================================
+day
+20
+
+```
 
 - 技术对比：目前技术有tesseract，或者deep learning，我们需要基于准确性，可维护性进行选择。
 - KPI：图片文字识别准确度能达到80-90%，应该不是100%，所以咱们后续还需提供校对，手工编辑的环节
@@ -35,5 +74,10 @@ https://dzone.com/articles/using-ocr-for-receipt-recognition
 - 文档是手写还是打印 - TanMJ
 - 结果信息（标题、日期）等位置是否固定
 
+2. 带背景的文字识别DEMO
+车牌
+(https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/plateNumber.png)
 
+明信片
+(https://github.com/jasonzhang079/ocrScanDocs/blob/master/pics/chineseWithBackground.png)
 
